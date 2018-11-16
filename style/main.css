@@ -1,0 +1,217 @@
+/*.main {
+	margin: 0 100px;
+}*/
+
+/*body {
+	width: 100%;
+	height: 100%;
+	min-width: 1412px;
+	_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1412?"1412px":""); 
+}*/
+
+img {
+	vertical-align:middle;
+}
+
+.main {
+	margin: 0 auto;
+    width: 1912px;
+}
+
+header {
+	margin: 0 90px;
+	line-height: 57px;
+	text-align: center;
+}
+
+.headerLeft {
+	float: left;
+}
+
+.headerLeft a {
+	color: #21944b;
+	font-size: 16px;
+}
+
+.headerLeft img {
+	margin-right: 6px;
+	width: 40px;
+	height: 40px;
+}
+
+.headerLeft span {
+	margin-left: 6px;
+	padding: 4px 6px;
+	border-radius: 15px;
+	background-color: #21944b;
+	color: #fff;
+}
+
+.headerCenter {
+	float: left;
+}
+
+.headerCenter li {
+	float: left;
+	margin-left: 46px;
+	font-size: 16px;
+}
+
+.headerCenter li a {
+	color: #000;
+}
+
+.headerCenter .active {
+	color: #3ba8f0;
+}
+
+.headerCenter li a:hover {
+	color: #3ba8f0;
+}
+
+.headerCenter .newFunction {
+	position: relative;
+	margin-right: 60px;
+}
+
+.headerCenter .newFunction i {
+	display: block;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	overflow: hidden;
+	margin-top: 19px;
+	border-style: solid dashed solid solid;
+	border-width: 10px 10px 10px 50px;
+	border-color: #ff4200 transparent #ff4200 #ff4200;
+}
+
+.headerCenter .newFunction span {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 56px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+
+.headerRight {
+	float: left;
+}
+
+.headerRight .search {
+	width: 22px; 
+	height: 20px;
+	margin-right: 81px;
+}
+
+.headerRight .user {
+	width: 33px; 
+	height: 33px;
+	margin-right: 12px;
+}
+
+hr {
+	color: #e2e2e2;
+	font-size: 0;
+	line-height: 0;
+}
+
+/*个人中心*/
+.mainContent {
+	margin: 0 100px;
+}
+
+.mainContent .left {
+	float: left;
+	margin-top: 28px;
+	width: 230px;
+}
+
+.mainContent .personal span{
+	margin-left: 14px;
+	margin-right: 82px;
+	font-size: 16px;
+	color: #a9a9a9;
+
+}
+
+.mainContent .tab {
+	margin-top: 56px;
+	padding-left: 26px;
+	font-size: 14px;
+}
+
+.mainContent .tab li {
+	padding: 22px 0;
+}
+
+.mainContent .tab img {
+	width: 17px;
+	height: 17px;
+	margin-right: 20px;
+}
+
+.mainContent .tab .active {
+	margin-left: -28px;
+	padding-left: 25px;
+	background-color: #f4f5f5;
+	border-left: 3px solid #3ba8f0;
+	color: #3ba8f0;
+
+}
+
+/*.mainContent .tab .active a {
+	color: #3ba8f0;
+}*/
+
+.mainContent .tab li:hover {
+	margin-left: -28px;
+	padding-left: 25px;
+	background-color: #f4f5f5;
+	border-left: 3px solid #3ba8f0;
+	color: #3ba8f0;
+}
+
+/*.mainContent .tab a:hover {
+	color: #3ba8f0;
+}*/
+
+.line {
+	width:230px;
+	border-right: 1px solid #e2e2e2;
+	padding-bottom:1600px;  
+	margin-bottom:-1600px;  
+}
+
+/*我的班级*/
+.mainContent .right {
+	float: left;
+}
+
+.mainContent .right .myClass span {
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 34px;
+	font-size: 14px;
+}
+
+.mainContent .right .back {
+	margin-top: 20px;
+	margin-left: 860px;
+	background-color: #3ca8f0;
+	color: #fff;
+}
+
+.mainContent .right hr {
+	margin-left: 34px;
+	margin-top: 22px;
+}
+
+.mainContent .right .hr1 {
+	margin-right: 62px;
+}
+

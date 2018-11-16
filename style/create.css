@@ -1,0 +1,66 @@
+.mainContent .right .classInfo .liu, form {
+	margin-left: 48px;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.mainContent .right .classInfo form{
+	text-align: right;
+	width: 542px;
+}
+
+.mainContent .right .classInfo span {
+	color: red;
+}
+
+.mainContent .right .classInfo form p {
+	margin-top: 22px;
+}
+
+.mainContent .right .classInfo form input, select {
+	border: 1px solid #e2e2e2;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 10px;
+	vertical-align:middle;
+}
+
+.mainContent .right .classInfo form select {
+	width: 398px;
+}
+
+.mainContent .right .classInfo form .text {
+	width: 386px;
+}
+
+.mainContent .right .classInfo form label {
+	margin-right: 30px;
+}
+
+.mainContent .right .classInfo form .radio {
+	display: inline-block;
+	text-align: left;
+	width: 398px;
+	color: #000;
+}
+
+.mainContent .right .classInfo form .radio i {
+	margin-right: 16px;
+}
+
+.mainContent .right .classInfo form .radio input {
+	margin-right: 8px;
+}
+
+.mainContent .right .classInfo .liu span {
+	color: #3ba8f0;
+}
+
+.mainContent .right .classInfo .submit {
+	background-color: #3ba8f0;
+	color: #fff;
+	height: 36px;
+	line-height: 36px;
+	padding:0 34px;
+	margin-right: 302px;
+}

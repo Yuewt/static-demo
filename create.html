@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>创建班级</title>
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link rel="stylesheet" type="text/css" href="style/create.css">
+</head>
+<body>
+	<div class="main clearfloat">
+		<header class="clearfloat">
+			<div class="headerLeft">
+				<a href="index.html"><img src="img/logo.png" alt="logo">福建省教育信息化统一平台</a>
+				<span>网教通</span>
+			</div>
+			<div class="headerCenter">
+				<ul class="clearfloat">
+					<li><a href="#">首页</a></li>
+					<li ><a href="#" class="active">教学管理</a></li>
+					<li><a href="#">学习</a></li>
+					<li><a href="#">资源超市</a></li>
+					<li><a href="#">教育应用</a></li>
+					<li><a href="#">新闻</a></li>
+					<li><a href="#">名师名校</a></li>
+					<li class="newFunction">
+						<i></i>
+						<span>新功能</span>
+					</li>
+				</ul>
+			</div>
+			<div class="headerRight">
+				<a href="#">
+					<img src="img/search.png" class="search" alt="search">
+				</a>
+				<a href="#">
+					<img src="img/user.png" class="user" alt="user">
+					Coco</a>
+			</div>
+		</header>
+		<hr />
+		<div class="mainContent clearfloat">
+			<div class="left">
+				<div class="personal">
+					<a href="#">
+						<img src="img/back.png" style="width: 30px; height: 30px;" alt="back"><span>个人中心</span>
+					</a>
+					<img src="img/four-square.png" alt="four-square">
+				</div>
+				<div class="tab">
+					<ul>
+						<li><a href="#"><img src="img/icon-1.png" alt="icon-1">其他内容</a></li>
+						<li><a href="#"><img src="img/icon-2.png" alt="icon-2">其他内容</a></li>
+						<li class="active"><a href="#"><img src="img/icon-3.png" alt="icon-3">我的班级</a></li>
+						<li><a href="#"><img src="img/icon-4.png" alt="icon-4">其他内容</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="right clearfloat">
+				<div class="myClass clearfloat">
+					<span>我的班级</span>
+					<button class="back"><a href="index.html">返回上一级</a></button>
+				</div>
+				<hr />
+				<div class="classInfo">
+					<p class="liu">尊敬的<span>老师（刘老师）</span>，请填写班级信息：</p>
+					<form>
+						<p> 
+							<label>学校</label>
+							<input type="text" name="school" class="text" placeholder="请选择学校">
+						</p>
+						<p>
+							<span>*</span>
+							<label>学段</label>
+							<select name="period">
+								<option disabled selected>请选择学段</option>
+								<option>小学</option>
+								<option>初中</option>
+								<option>高中</option>
+								<option>大学</option>
+							</select>
+						</p>
+						<p>
+							<span>*</span>
+							<label>年级</label>
+							<select name="grade">
+								<option disabled selected>请选择年级</option>
+								<option>一年级</option>
+								<option>二年级</option>
+								<option>三年级</option>
+							</select>
+						</p>
+						<p>
+							<span>*</span>
+							<label>班级名</label>
+							<input type="text" name="className" class="text" placeholder="请输入班级名称，限20个字符，不支持输入_和%">
+						</p>
+						<p>
+							<label>类型</label>
+							<span class="radio">
+								<input type="radio" name="classType">行政班<i></i>
+								<input type="radio" name="classType">教学班
+							</span>
+						</p>
+						<p>
+							<label>退出权限设置</label>
+							<span class="radio">
+								<input type="radio" name="quit">允许退出<i></i>
+								<input type="radio" name="quit">通过班级管理员审核后退出<i></i>
+								<input type="radio" name="quit">禁止退出
+							</span>
+						</p>
+						<p>
+							<input type="submit" name="submit" class="submit" value="保存">
+						</p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

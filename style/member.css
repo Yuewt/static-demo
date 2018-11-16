@@ -1,0 +1,114 @@
+.mainContent .right .className {
+	position: relative;
+}
+
+.mainContent .right .className h3 {
+	margin-top: 38px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.mainContent .right .className input {
+	position: absolute;
+	padding: 10px 10px; 
+	top: -4px;
+	right: 0px;
+	width: 300px;
+	height: 14px;
+	border: 1px solid #3ba8f0;
+}
+
+.mainContent .right .className .searchButton {
+	position: absolute;
+	top: -4px;
+	right: 0px;
+	width: 50px;
+	height: 36px;
+	background-color: #3ca8f0;
+}
+
+/*班级成员*/
+.mainContent .right .box {
+	width: 989.21px;
+	height: 687px;
+	margin-left: 46px;
+	margin-top: 40px;
+	border: 1px solid #e2e2e2;
+}
+
+.mainContent .right .box .groups {
+	height: 34px;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.mainContent .right .box .groups li{
+	float: left;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 34px;
+	font-size: 14px;
+}
+
+.mainContent .right .box .groups .active {
+	color: #3ba8f0;
+	background-color: #fff;
+	border-right: 1px solid #e2e2e2;
+}
+
+.mainContent .right .box .groups li:hover {
+	color: #3ba8f0;
+	background-color: #fff;
+	border-right: 1px solid #e2e2e2;
+}
+
+.mainContent .right .box .teachers {
+	margin-left: 28px;
+}
+
+.mainContent .right .box .teachers .member {
+	width: 134px;
+	height: 150px;
+	border: 1px solid #e2e2e2;
+	margin-top: 20px;
+	margin-right: 20px;
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+	line-height: 34px;
+}
+
+.mainContent .teachers .member .job {
+	position: relative;
+}
+
+.mainContent .teachers .member .job span {
+	position: absolute;
+	height: 20px;
+	padding: 0px 6px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.mainContent .teachers .member .job span:last-child {
+	top: -20px;
+	right: 52px;
+	color: #fff;
+}
+.mainContent .teachers .member .job span:first-child {
+	top: -20px;
+	right: 0;
+	color: #fff;
+}
+
+.mainContent .teachers .member .job .course {
+	background-color: #f99d43;
+}
+
+.mainContent .teachers .member .job .admin {
+	background-color: #f96543;
+}
+
+/*.mainContent .teachers .active {
+
+
+}*/

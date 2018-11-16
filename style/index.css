@@ -1,0 +1,44 @@
+.mainContent .right .classList {
+	margin-left: 34px;
+	font-size: 14px;
+}
+
+.mainContent .right .classList .text1 {
+	margin: 20px 0;
+	color: #666666;
+}
+
+.mainContent .right .classList .classAll {
+	position: relative;
+	width: 328px;
+	height: 130px;
+	display: inline-block;
+	padding-top: 28px;
+	border: 1px solid #e2e2e2;
+	margin-right: 18px;
+}
+
+.mainContent .right .classList .classAll img {
+	float: left;
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+.mainContent .right .classList .classAll .adminClass {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 2px 8px;
+	background-color: #3ba8f0;
+	color: #fff;
+
+}
+
+.mainContent .right .classList .classAll .classInfo {
+	float: left;
+	padding-top: 8px;
+}
+
+.mainContent .right .classList .classAll .classInfo p {
+	margin-bottom: 6px;
+}

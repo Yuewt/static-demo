@@ -15,7 +15,7 @@ img {
 
 .main {
 	margin: 0 auto;
-    width: 1912px;
+    width: 1518px;
 }
 
 header {
@@ -190,6 +190,7 @@ hr {
 /*我的班级*/
 .mainContent .right {
 	float: left;
+	width: 1088px;
 }
 
 .mainContent .right .myClass span {

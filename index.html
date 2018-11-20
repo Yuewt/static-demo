@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style/reset.css">
 	<link rel="stylesheet" type="text/css" href="style/main.css">
 	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 	<div class="main clearfloat">
@@ -68,7 +69,7 @@
 						行政班是为学生管理和教学管理而设置的班级
 					</p>
 					<div class="classAll">
-						<a href="member.html">
+						<a href="member.html" class="clearfloat">
 							<img src="img/class-icon.png" alt="class-icon" style="width: 102px; height: 106px;">
 							<div class="classInfo">
 								<p>高中-2013级</p>
@@ -77,47 +78,28 @@
 								<p>学生：33人</p>
 							</div>
 						</a>
-						<span class="adminClass">行政班</span>
+						<span class="adminClass">行政班</
+							span>
 					</div>
 					<p class="text1">
 						教学班是根据课程教学要求而设置的班级
 					</p>
-					<div class="classAll">
-						<a href="member.html">
-							<img src="img/class-icon.png" alt="class-icon" style="width: 102px; height: 106px;">
-							<div class="classInfo">
-								<p>高中-2013级</p>
-								<p>班级：三年二班</p>
-								<p>班主任：<strong>田小雨</strong></p>
-								<p>学生：33人</p>
-							</div>
-						</a>
-					</div>
-					<div class="classAll">
-						<a href="member.html">
-							<img src="img/class-icon.png" alt="class-icon" style="width: 102px; height: 106px;">
-							<div class="classInfo">
-								<p>高中-2013级</p>
-								<p>班级：三年二班</p>
-								<p>班主任：<strong>田小雨</strong></p>
-								<p>学生：33人</p>
-							</div>
-						</a>
-					</div>
-					<div class="classAll">
-						<a href="member.html">
-							<img src="img/class-icon.png" alt="class-icon" style="width: 102px; height: 106px;">
-							<div class="classInfo">
-								<p>高中-2013级</p>
-								<p>班级：三年二班</p>
-								<p>班主任：<strong>田小雨</strong></p>
-								<p>学生：33人</p>
-							</div>
-						</a>
+					<div id="info">
 					</div>
 				</section>
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		$(function(){
+       		$(document).ready(function(){
+            	$.getJSON('class.json',function(data) {
+                	$.each (data, function (i, item) {
+                		$ ("#info").append("<div class='classAll'><a href='member.html' class='clearfloat'><img src='img/class-icon.png' alt='class-icon' style='width: 102px; height: 106px;'><div class='classInfo'><p>高中-2013级</p><p>班级："+ item.className + "</p><p>班主任：<strong>"+ item.teacher + "</strong></p><p>学生："+ item.studentNum + "</p></div></a></div>");
+                	});
+            	});
+        	});
+    	});
+	</script>
 </body>
 </html>

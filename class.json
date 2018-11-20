@@ -1,0 +1,37 @@
+[ 
+	{ 
+		"className" : "三年一班", 
+		"teacher" : "宋江", 
+		"studentNum" : "33人" 
+	}, 
+	{ 
+		"className" : "三年二班", 
+		"teacher" : "卢俊义", 
+		"studentNum" : "35人"  
+	}, 
+	{ 
+		"className" : "三年三班", 
+		"teacher" : "吴用", 
+		"studentNum" : "43人"  
+	},
+	{ 
+		"className" : "三年三班", 
+		"teacher" : "公孙胜", 
+		"studentNum" : "42人"  
+	},
+	{ 
+		"className" : "三年四班", 
+		"teacher" : "关胜", 
+		"studentNum" : "40人"  
+	},
+	{ 
+		"className" : "三年五班", 
+		"teacher" : "林冲", 
+		"studentNum" : "41人"  
+	},
+	{ 
+		"className" : "三年六班", 
+		"teacher" : "秦明", 
+		"studentNum" : "38人"  
+	}
+] 
